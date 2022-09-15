@@ -1,0 +1,33 @@
+.row {display: flex;
+    margin-bottom: 10pt;
+    margin-right: 6pt;
+    text-align: end;
+}
+
+
+.col { display: flex;
+    flex:1;
+    background-color:darkcyan;
+    border-inline: 10px;
+    height: 30pt;
+    padding-bottom: 3pt;
+    margin-right: 5px;
+    float: right;
+}
+
+.col-2 { display: flex;
+    flex:2;
+    background-color:darkcyan;
+    height: 30pt;
+    padding-bottom: 3pt;
+    margin-right: 5pt;
+}
+
+
+.col-3 { display: flex;
+    flex: 3;
+    background-color:darkcyan;
+    height: 30pt;
+    padding-bottom: 3pt;
+    margin-right: 5pt;
+}
